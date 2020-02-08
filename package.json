@@ -1,0 +1,27 @@
+{
+  "name": "wander",
+  "version": "0.0.1",
+  "description": "game (server and client side)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "kiddspazz (https://www.travish.com)",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "jest": "^24.9.0"
+  }
+}
