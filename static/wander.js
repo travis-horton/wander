@@ -1,5 +1,5 @@
-import Vector from './modules/vectors.mjs';
-import Color from './modules/color.mjs';
+import Vector from './modules/vectors.js';
+import Color from './modules/color.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const p = document.getElementById('info');

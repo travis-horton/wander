@@ -24,5 +24,12 @@
     "eslint-plugin-import": "^2.20.0",
     "jest": "^25.1.0",
     "mocha": "^7.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
   }
 }
