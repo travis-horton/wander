@@ -29,7 +29,8 @@
     "verbose": true,
     "moduleFileExtensions": [
       "js",
-      "jsx"
+      "jsx",
+      "mjs"
     ]
   }
 }
