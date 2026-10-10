@@ -1,6 +1,6 @@
 {
   "name": "wander",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "game (server and client side)",
   "main": "server.js",
   "type": "module",
