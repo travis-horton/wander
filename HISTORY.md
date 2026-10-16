@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #37: Bump tough-cookie and jest** · [PR #37](https://github.com/travis-horton/wander/pull/37) · merged 26.1016.1034 · v1.0.10
+- Behind the scenes: an automatic dependency update — "Bump tough-cookie and jest".
+
 **wander #28: Bump uuid and jest** · [PR #28](https://github.com/travis-horton/wander/pull/28) · merged 26.1016.1034 · v1.0.9
 - Behind the scenes: an automatic dependency update — "Bump uuid and jest".
 
