@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #23: Bump debug and socket.io** · [PR #23](https://github.com/travis-horton/wander/pull/23) · merged 26.1016.1001 · v1.0.6
+- Behind the scenes: an automatic dependency update — "Bump debug and socket.io".
+
 **wander #25: Bump js-yaml from 3.13.1 to 3.15.2** · [PR #25](https://github.com/travis-horton/wander/pull/25) · merged 26.1016.0956 · v1.0.5
 - Behind the scenes: an automatic dependency update — "Bump js-yaml from 3.13.1 to 3.15.2".
 
