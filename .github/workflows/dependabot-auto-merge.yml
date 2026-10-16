@@ -1,0 +1,43 @@
+# Dependabot updates merge themselves (26.1016, Travis: "an auto-merge workflow would be cool").
+#
+# This repo is dormant: nothing runs or deploys from it, and main requires no checks, so a
+# Dependabot PR is merged as soon as it opens or is rebased. A PR that cannot merge yet (a
+# conflict after a neighbour landed first) fails this run harmlessly; Dependabot rebases it,
+# and that push (`synchronize`) runs this again and merges it.
+#
+# HISTORY.md: a merge made with GITHUB_TOKEN starts no other workflow, so history.yml's
+# `append` job would never see it. The last step starts history.yml by hand instead —
+# workflow_dispatch is one of the two events a GITHUB_TOKEN is allowed to start — and its
+# catch-up files every merged PR the history is missing, this one included.
+name: dependabot auto-merge
+
+on: pull_request
+
+permissions:
+  contents: write # merge
+  pull-requests: write # merge
+  actions: write # start history.yml
+
+jobs:
+  merge:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - id: meta
+        uses: dependabot/fetch-metadata@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: merge it
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          DEPS: ${{ steps.meta.outputs.dependency-names }}
+          UPDATE: ${{ steps.meta.outputs.update-type }}
+        run: |
+          echo "Dependabot: $DEPS ($UPDATE)"
+          gh pr merge --merge "$PR_URL"
+      - name: file it in HISTORY.md (history.yml's catch-up)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: gh workflow run history.yml --repo "$GITHUB_REPOSITORY" --ref "$DEFAULT_BRANCH"
