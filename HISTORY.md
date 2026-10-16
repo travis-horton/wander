@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #24: Bump brace-expansion from 1.1.11 to 1.1.21** · [PR #24](https://github.com/travis-horton/wander/pull/24) · merged 26.1016.0956 · v1.0.4
+- Behind the scenes: an automatic dependency update — "Bump brace-expansion from 1.1.11 to 1.1.21".
+
 **wander #22: Bump serialize-javascript and mocha** · [PR #22](https://github.com/travis-horton/wander/pull/22) · merged 26.1016.0955 · v1.0.3
 - Behind the scenes: an automatic dependency update — "Bump serialize-javascript and mocha".
 
