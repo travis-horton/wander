@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #22: Bump serialize-javascript and mocha** · [PR #22](https://github.com/travis-horton/wander/pull/22) · merged 26.1016.0955 · v1.0.3
+- Behind the scenes: an automatic dependency update — "Bump serialize-javascript and mocha".
+
 **wander #26: the change log catches up on entries it missed** · [PR #26](https://github.com/travis-horton/wander/pull/26) · merged 26.1015.0728 · v1.0.2
 - Behind the scenes: the robot that writes this file after each change now also writes in any earlier finished change it missed, oldest first, with a "recorded late" note when it is more than an hour late. If GitHub won't answer one of its lookups, it skips only that one, records the newest change anyway, and fills the gap on a later run.
 
