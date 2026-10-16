@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #29: Bump form-data and jest** · [PR #29](https://github.com/travis-horton/wander/pull/29) · merged 26.1016.1035 · v1.0.11
+- Behind the scenes: an automatic dependency update — "Bump form-data and jest".
+
 **wander #37: Bump tough-cookie and jest** · [PR #37](https://github.com/travis-horton/wander/pull/37) · merged 26.1016.1034 · v1.0.10
 - Behind the scenes: an automatic dependency update — "Bump tough-cookie and jest".
 
