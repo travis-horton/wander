@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #28: Bump uuid and jest** · [PR #28](https://github.com/travis-horton/wander/pull/28) · merged 26.1016.1034 · v1.0.9
+- Behind the scenes: an automatic dependency update — "Bump uuid and jest".
+
 **wander #31: Bump minimatch from 3.0.4 to 3.1.5** · [PR #31](https://github.com/travis-horton/wander/pull/31) · merged 26.1016.1032 · v1.0.8
 - Behind the scenes: an automatic dependency update — "Bump minimatch from 3.0.4 to 3.1.5".
 
