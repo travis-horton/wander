@@ -16,7 +16,7 @@
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.3",
-    "socket.io": "^2.5.0"
+    "socket.io": "^4.8.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
