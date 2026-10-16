@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #27: Bump tmp, eslint and eslint-config-airbnb-base** · [PR #27](https://github.com/travis-horton/wander/pull/27) · merged 26.1016.1030 · v1.0.7
+- Behind the scenes: an automatic dependency update — "Bump tmp, eslint and eslint-config-airbnb-base".
+
 **wander #23: Bump debug and socket.io** · [PR #23](https://github.com/travis-horton/wander/pull/23) · merged 26.1016.1001 · v1.0.6
 - Behind the scenes: an automatic dependency update — "Bump debug and socket.io".
 
