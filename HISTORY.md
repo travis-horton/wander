@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #38: Dependabot's updates merge themselves** · [PR #38](https://github.com/travis-horton/wander/pull/38) · merged 26.1016.1117 · v1.0.12
+- Behind the scenes: a new automatic job merges each library update from Dependabot as soon as it opens, then asks the change-log job to record it, so the updates keep landing without anyone clicking merge.
+
 **wander #29: Bump form-data and jest** · [PR #29](https://github.com/travis-horton/wander/pull/29) · merged 26.1016.1035 · v1.0.11
 - Behind the scenes: an automatic dependency update — "Bump form-data and jest".
 
