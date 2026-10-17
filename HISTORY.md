@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**wander #39: the change log keeper, refreshed (current checkout step)** · [PR #39](https://github.com/travis-horton/wander/pull/39) · merged 26.1017.1355 · v1.0.13
+- Behind the scenes: the automatic job that writes this change log now uses version 7 of GitHub's checkout step instead of version 4, and passes what it saves to GitHub as a list rather than one long line of text. The entries it writes, their version numbers and their tags are the same as before.
+
 **wander #38: Dependabot's updates merge themselves** · [PR #38](https://github.com/travis-horton/wander/pull/38) · merged 26.1016.1117 · v1.0.12
 - Behind the scenes: a new automatic job merges each library update from Dependabot as soon as it opens, then asks the change-log job to record it, so the updates keep landing without anyone clicking merge.
 
